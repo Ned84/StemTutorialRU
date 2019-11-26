@@ -54,7 +54,4 @@ tor_process = stem.process.launch_tor_with_config(
 print(term.format("\nChecking our endpoint:\n", term.Attr.BOLD))
 print(term.format(query("https://check.torproject.org/"), term.Color.BLUE))
 
-
-
-
 tor_process.kill()  # stops tor
