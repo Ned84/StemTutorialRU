@@ -14,3 +14,13 @@ The Output is not filtered but should read that Tor is used and the specific IP 
 Congratulations. This browser is configured to use Tor.
 Your IP address appears to be:  ***.***.***.***
 ``` 
+
+Install certifi:
+```
+python -m pip install certifi
+```
+
+Install pycurl:
+``` 
+python -m pip install pycurl
+```
